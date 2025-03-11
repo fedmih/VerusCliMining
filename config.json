@@ -22,6 +22,5 @@
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "10.253.146.0/16",
 	"api-bind": "0.0.0.0:4068"
 }
