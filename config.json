@@ -21,6 +21,5 @@
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
-	"retry-pause": 5,
-	"api-bind": "0.0.0.0:4068"
+	"retry-pause": 5
 }
