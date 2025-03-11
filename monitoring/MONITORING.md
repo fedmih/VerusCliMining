@@ -4,7 +4,7 @@
 Monitoring requires CCMINER to have the API enabled, which it is by default not the case. By default it only accepts connections from localhost (127.0.0.1)
 In the `config.json` you'll find the required lines needed to enable the API:
 ```json
-	"api-allow": "10.253.146.0/24", # allows access for this IP range. Adjust to your own situation.
+	"api-allow": "192.168.1.0/24", # allows access for this IP range. Adjust to your own situation.
 	"api-bind": "0.0.0.0:4068"     # enables the API by making it listen on the specified IP address and port. 0.0.0.0 signifies all adapters and IPs.
 ```
 
